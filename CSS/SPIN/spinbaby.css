@@ -1,0 +1,40 @@
+.paddingnumb {
+  padding-left: 6%;
+  margin: 0!important;
+}
+
+.bigletters {
+  transform:scale(3,3);
+  transform-origin:0 0;
+}
+
+
+.font {
+font-family: 'Inconsolata', monospace;
+font-size: 50px;
+text-align: center;
+}
+
+#displaynumber {
+
+}
+/*
+
+.DC {
+    animation-name: Cub;
+    animation-duration: 1.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+ keyframes Cub {
+	from {
+		transform: rotateY(0deg);
+	} to {
+		transform: rotateY(360deg);
+        }
+}

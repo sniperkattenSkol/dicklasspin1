@@ -1,0 +1,117 @@
+    body {
+      width: 500px!important;
+      height: 100%;
+    background-image: url("../IMG/BG/salty.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+/* spinbaby.css code */
+.paddingnumb {
+  padding-left: 6%;
+  margin: 0!important;
+}
+
+.bigletters {
+  transform:scale(3,3);
+  transform-origin:0 0;
+}
+
+
+.font {
+font-family: 'Inconsolata', monospace;
+font-size: 50px;
+text-align: center;
+}
+
+#displaynumber {
+
+}
+/* spinbaby.css code */
+
+    .disp {
+      margin: 0 auto;
+    }
+    .cube-wrap {
+
+      
+        position: relative;
+        perspective: 2000px;
+        perspective-origin: 50% 99px;
+        padding: 150px 0px 0px 400px;
+    }
+    .cb {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+        transform-style: preserve-3d;
+
+    }
+    .cb {
+      animation-name: spin;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      margin-left: 15vw!important;
+
+    }
+    @keyframes spin {
+    from{
+    transform: rotate3D(1,1,1,0deg);
+        }to{
+    transform: rotate3d(1,1,1,360deg);
+    }
+    }
+
+    .cb div {
+        position: absolute;
+
+    }
+    }
+    .cb div.back-pane {
+        transform: translateZ(-100px) rotateY(180deg);
+
+
+    }
+    .cb div.right-pane {
+        transform: rotateY(-270deg) translateX(40px) translateZ(-80px);
+        transform-origin: top right;
+
+
+    }
+    .cb div.left-pane {
+        transform: rotateY(270deg) translateX(-40px) translateZ(-80px);
+        transform-origin: center left;
+
+    }
+    .cb div.top-pane {
+        transform: rotateX(-90deg) translateY(-400px);
+        transform-origin: top center;
+    }
+    .cb div.bottom-pane {
+        transform: rotateX(90deg) translateY(400px);
+        transform-origin: bottom center;
+    }
+    .cb div.front-pane {
+        transform: translateZ(100px);
+        transform: translate3d(0, 0, 420px);
+
+    }
+
+
+    .brigz {
+       animation-name: brme;
+       animation-duration: 1s;
+       animation-iteration-count: infinite;
+       animation-timing-function: linear;
+    }
+
+
+  @keyframes brme {
+  0%, 100% { 
+         filter: brightness(none) hue-rotate(0deg);
+      }50%{
+        filter: brightness(10) hue-rotate(180deg);
+  }
+
+
+
